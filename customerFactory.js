@@ -43,5 +43,5 @@ const createCustomer = (firstName, lastName, genre, address) => {
    LibraryDatabase.customers.push(customer)
 }
 // createCustomer = (firstName, lastName, genre, address)   
-console.log(createCustomer("Rachael", "Babcock","classics", "123 Ewing Lane"))
+
 console.log(customers)
