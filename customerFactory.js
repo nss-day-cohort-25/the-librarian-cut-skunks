@@ -1,7 +1,8 @@
+const customers = []
 
 const createCustomer = (firstName, lastName, genre, address) => {
 
-    let newObject = Object.create({}, {
+    let customer = Object.create({}, {
         firstName:{
             value: firstName,
             enumerable: true,
@@ -39,7 +40,8 @@ const createCustomer = (firstName, lastName, genre, address) => {
        }
        
    })
-   return newObject
+   customers.push(customer)
 }
 // createCustomer = (firstName, lastName, genre, address)   
 console.log(createCustomer("Rachael", "Babcock","classics", "123 Ewing Lane"))
+console.log(customers)
