@@ -1,0 +1,6 @@
+makeBooks("Kushiel's Dart", "Jacqueline Carey", "fantasy", 9780312872380)
+makeBooks("Kushiel's Avatar", "Jacqueline Carey", "fantasy", 9781400109517)
+makeBooks("Kushiel's Scion", "Jacqueline Carey", "fantasy", 9780446500029)
+makeBooks("Kushiel's Mercy", "Jacqueline Carey", "fantasy", 9780446593595)
+makeBooks("Kushiel's Justice", "Jacqueline Carey", "fantasy", 9780446500036)
+makeBooks("Kushiel's Chosen", "Jacqueline Carey", "fantasy", 9780330412773)
