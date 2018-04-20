@@ -1,4 +1,5 @@
-const bookInventory = [];
+
+LibraryDatabase.bookInventory = [];
 
 
 function makeBooks (title, author, genre, isbn) {
@@ -36,14 +37,14 @@ function makeBooks (title, author, genre, isbn) {
     })
 
     
-    bookInventory.push(book);
+    LibraryDatabase.bookInventory.push(book);
+   
 }
 
 
-makeBooks("Harry Potter", "me", "kids", 2323, " ", " ");
-makeBooks("Stranger", "you", "fiction", 4343, " ", " ")
 
 
-console.log(bookInventory);
+
+console.log(LibraryDatabase);
 
 
