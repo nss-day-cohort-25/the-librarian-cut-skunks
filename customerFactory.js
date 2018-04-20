@@ -1,4 +1,4 @@
-const customers = []
+LibraryDatabase.customers = []
 
 const createCustomer = (firstName, lastName, genre, address) => {
 
@@ -44,4 +44,3 @@ const createCustomer = (firstName, lastName, genre, address) => {
 }
 // createCustomer = (firstName, lastName, genre, address)   
 
-console.log(customers)
