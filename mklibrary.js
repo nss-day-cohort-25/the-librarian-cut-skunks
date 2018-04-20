@@ -1,7 +1,7 @@
 const bookInventory = [];
 
 
-function makeBooks (title, author, genre, isbn, checkout, due) {
+function makeBooks (title, author, genre, isbn) {
     let book = Object.create({
         title: {
             writable: false,
@@ -26,20 +26,18 @@ function makeBooks (title, author, genre, isbn, checkout, due) {
         checkedOut: {
             writable: true,
             enumerable: false,
-            value: checkout
+            value: " "
         },
         dueDate: {
             writable: true,
             enumerable: true,
-            value: due
+            value: " "
         },
     })
 
     
     bookInventory.push(book);
 }
-
-
 
 
 makeBooks("Harry Potter", "me", "kids", 2323, " ", " ");
