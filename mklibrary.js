@@ -1,7 +1,7 @@
-
+//Book array to be used for the library object
 LibraryDatabase.bookInventory = [];
 
-
+//function to pass book info through
 function makeBooks (title, author, genre, isbn) {
     let book = Object.create({}, {
         title: {
@@ -42,15 +42,7 @@ function makeBooks (title, author, genre, isbn) {
         },
     })
 
-    
+    //As the book is created, push it to the database
     LibraryDatabase.bookInventory.push(book);
    
 }
-
-
-
-
-
-console.log(LibraryDatabase);
-
-
