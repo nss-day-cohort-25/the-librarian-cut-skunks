@@ -1,5 +1,7 @@
+//Customer array to be used for the library object
 LibraryDatabase.customers = []
 
+//Function to pass customer details through
 const createCustomer = (firstName, lastName, genre, address) => {
 
     let customer = Object.create({}, {
@@ -39,8 +41,6 @@ const createCustomer = (firstName, lastName, genre, address) => {
            writable: true
        }
        
-   })
+   })   //As the customer is created, push it to the database
    LibraryDatabase.customers.push(customer)
 }
-// createCustomer = (firstName, lastName, genre, address)   
-
