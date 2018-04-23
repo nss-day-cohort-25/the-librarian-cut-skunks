@@ -5,34 +5,40 @@ LibraryDatabase.bookInventory = [];
 function makeBooks (title, author, genre, isbn) {
     let book = Object.create({}, {
         title: {
+            value: title,
             writable: false,
-            enumerable: true,
-            value: title
+            enumerable: true
+            
         },
         author: {
+            value: author,
             writable: false,
-            enumerable: true,
-            value: author
+            enumerable: true
+            
         },
         genre: {
+            value: genre,
             writable: false,
-            enumerable: true,
-            value: genre
+            enumerable: true
+            
         },
         ISBN: {
+            value: isbn,
             writable: false,
-            enumerable: true,
-            value: isbn
+            enumerable: true
+            
         },
         checkedOut: {
+            value: false,
             writable: true,
             enumerable: false,
-            value: " "
+            
         },
         dueDate: {
+            value: " ",
             writable: true,
-            enumerable: true,
-            value: " "
+            enumerable: true
+            
         },
     })
 
